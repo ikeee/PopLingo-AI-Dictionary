@@ -37,6 +37,25 @@ PopLingo moves away from boring textbook definitions. It provides a bright, "Pop
 3.  Set the `API_KEY` in your environment variables.
 4.  Run the application.
 
+### User Guide
+1.  **Setup Languages**: Use the top bar selectors to choose your Native Language (e.g., Chinese) and Target Language (e.g., English).
+2.  **Search**: Enter a word or phrase in the search bar and press Enter.
+    *   *Tip*: You can input text in either language; the AI will figure it out.
+3.  **Explore the Card**:
+    *   **Listen**: Click the Speaker icon to hear the pronunciation.
+    *   **Visual**: View the AI-generated 3D illustration.
+    *   **Read**: Check the highlighted definition and "The Vibe" usage note.
+    *   **Examples**: Read the example sentences; click the small speaker icons to hear them.
+4.  **Chat with Tutor**: Use the chat box on the right (desktop) or bottom (mobile) to ask specific questions like "Is this word formal?" or "Give me a synonym."
+5.  **Save to Notebook**: Click the **Save** (Heart/Floppy Disk) icon in the top right of the card.
+6.  **Notebook & Stories**:
+    *   Go to the **Notebook** tab to see your collection.
+    *   Click **"Make a Story"** to have AI weave your saved words into a funny short story to help you memorize them.
+7.  **Study Mode**:
+    *   Go to the **Study** tab.
+    *   You will see a Flashcard with the word and phonetic script.
+    *   Tap "Reveal Answer" to flip the card and see the definition and example.
+
 ---
 
 ## 🇨🇳 中文说明
@@ -69,3 +88,24 @@ PopLingo 摒弃了枯燥的教科书式定义。它提供了一个明亮、流�
 2.  确保您拥有有效的 Google Gemini API Key。
 3.  在环境变量中设置 `API_KEY`。
 4.  运行应用程序。
+
+### 使用教程
+1.  **设置语言**: 使用顶部栏的选择器选择您的**母语**（例如：中文）和**目标语言**（例如：英语）。
+2.  **搜索单词**: 在搜索框中输入单词或短语，然后按回车键。
+    *   *提示*: 支持输入中英文，AI 会自动识别并翻译/定义。
+3.  **学习卡片**:
+    *   **听音**: 点击喇叭图标收听真人级发音。
+    *   **看图**: 查看 AI 生成的潮流 3D 记忆插图。
+    *   **阅读**: 查看带有高亮显示的定义和“氛围感”用法提示。
+    *   **例句**: 阅读例句，并点击旁边的喇叭图标收听例句朗读。
+4.  **导师对话 (Chat)**:
+    *   使用右侧（桌面端）或下方（移动端）的聊天框向 AI 导师提问。
+    *   例如：“这个词是褒义还是贬义？”、“用这个词造个句”。
+5.  **保存生词**: 点击卡片右上角的 **保存** 图标，将其加入生词本。
+6.  **生词本与故事**:
+    *   切换到 **Notebook** 标签页查看您收藏的单词。
+    *   点击 **"Make a Story"** 按钮，AI 会将您生词本里的词串成一个有趣的小故事，帮助您记忆。
+7.  **学习模式 (Study)**:
+    *   切换到 **Study** 标签页。
+    *   您将看到一张显示单词和音标的闪卡（正面）。
+    *   点击 **"Reveal Answer"**（揭晓答案）翻转卡片，查看中文释义和例句。
