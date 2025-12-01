@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PopLingo AI Dictionary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              pop: {
+                yellow: '#FFEA00', // Bright Lemon
+                pink: '#FF0080',   // Hot Pink
+                blue: '#00E5FF',   // Electric Cyan
+                purple: '#AA00FF', // Vivid Purple
+                orange: '#FF6D00', // Blaze Orange
+                green: '#00C853',  // Malachite
+                dark: '#111827',   // Gray 900
+              }
+            },
+            boxShadow: {
+              'neo': '6px 6px 0px 0px rgba(0,0,0,1)',
+              'neo-sm': '3px 3px 0px 0px rgba(0,0,0,1)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+      
+      body {
+        font-family: 'Nunito', sans-serif;
+        background-color: #FAFAFA;
+        background-image: radial-gradient(#E5E7EB 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+      h1, h2, h3, button, .font-display {
+        font-family: 'Fredoka', sans-serif;
+      }
+      
+      /* Flip card styles */
+      .perspective-1000 {
+        perspective: 1000px;
+      }
+      .transform-style-3d {
+        transform-style: preserve-3d;
+      }
+      .backface-hidden {
+        backface-visibility: hidden;
+      }
+      .rotate-y-180 {
+        transform: rotateY(180deg);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
